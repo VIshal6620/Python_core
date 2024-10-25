@@ -50,6 +50,6 @@ class Child(Parent1, Parent2):
     def show(self):
         Parent1.show1(self)
         Parent2.show1(self)
-    print("c")
+    print("class of parent and child")
 obj=Child()
 obj.show()
