@@ -1,6 +1,6 @@
 class Person:
 
-    # #    count = 0
+# #    count = 0
     #
     #     def setName(self, name):
     #         self.name = name
@@ -8,11 +8,11 @@ class Person:
     #     def getName(self):
     #         return self.name
     #
-    #     def setsalry(self, salry):
-    #         self.salry = salry
+    #     def setsalary(self, salary):
+    #         self.salary = salary
     #
-    #     def getsalry(self):
-    #         return self.salry
+    #     def getsalary(self):
+    #         return self.salary
     #
     #     def setcity(self, city):
     #         self.city = city
@@ -24,8 +24,8 @@ class Person:
     # p = Person()
     # p.setName("vishal")
     # print(p.getName())
-    # p.setsalry("25000")
-    # print(p.getsalry())
+    # p.setsalary("25000")
+    # print(p.getsalary())
     # p.setcity("dewas")
     # print(p.getcity())
     #
@@ -46,3 +46,4 @@ class Person:
 
 p = Person("vishal", "32000", "indore")
 print(p.getname(), p.getsalary(), p.getcity())
+

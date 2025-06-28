@@ -1,13 +1,14 @@
-class Hello:
-    pass
-
-
-print(Hello())
+# class Hello:
+#     pass
+#
+#
+# print(Hello())
 
 
 # or
 
-# class Hello:
-#   #  def_init_(self):
-#     print("Hello world")
-#     h = Hello()
+class Hello:
+    def __init__(self):
+        h = Hello();
+
+    print("Hello world")

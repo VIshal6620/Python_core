@@ -1,8 +1,8 @@
-# a = 10
-# b = 0
-# c = a / b
-# print(c)
-# print("Hello world")
+a = 10
+b = 0
+c = a / b
+print(c)
+print("Hello world")
 
 
 # a = 4
@@ -41,12 +41,12 @@
 #     print("Division by zero error")
 # except ValueError:
 #     print("Non-numeric inputs provided")
-
-list = {'name': "anant", 'age': 19}
-k = input("Enter key to search:")
-d = list.keys()
-try:
-    v = list[k]
-    print("key is present")
-except Exception:
-    print("key not found")
+#
+# list = {'name': "anant", 'age': 19}
+# k = input("Enter key to search:")
+# d = list.keys()
+# try:
+#     v = list[k]
+#     print("key is present")
+# except Exception:
+#     print("key not found")

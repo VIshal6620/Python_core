@@ -1,14 +1,14 @@
-# from array import array
-#
-# array1 = array('i', [10, 20, 30, 40, 50])
+from array import array
+
+# array1 = array('i' ,[10, 20, 30, 40, 50])
 # print(array1[0])
-# print(array1[2])
-from tkinter.font import names
+# print(array1[4])
+# from tkinter.font import names
 
 # Access the Elements of an Array
 
 # names=["Ram","Shyam","Raju"]
-# x=names[0];
+# x=names[2];
 # print(x)
 
 # The length of an Array
@@ -30,9 +30,10 @@ from tkinter.font import names
 #     print(x)
 
 # update operation
-from array import array
+# from array import array
 
 array1 = array('i', [10, 20, 30, 40, 50])
-array1[2] = 656
+array1[3] = 656
 for x in array1:
     print(x)
+

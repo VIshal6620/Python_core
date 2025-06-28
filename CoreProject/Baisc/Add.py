@@ -1,4 +1,10 @@
-x =10
-y = 4
-c = x+y
-print("",c)
+a = 5
+b = 9
+c = a+b
+
+print("addition",c)
+
+
+print(type(a))
+
+

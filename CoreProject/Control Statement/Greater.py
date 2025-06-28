@@ -1,4 +1,4 @@
 a = 400
 b = 656
-if a * b:
-    print("a is greater than b")
+if a < b:
+    print( "A is greater than b")
