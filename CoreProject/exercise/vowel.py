@@ -1,4 +1,4 @@
-str = 'vishal'
+str = 'vishal vishwakarma'
 
 for vowel in 'aeiou':
     count = 0
@@ -7,3 +7,7 @@ for vowel in 'aeiou':
             count += 1
     if count != 0:
         print(vowel, "count =", count)
+
+
+
+
