@@ -6,8 +6,8 @@
 #     for char in word:
 #         reversed_word = char + reversed_word
 #     print(reversed_word, end=" ")
-#
-#
+
+
 
 name = "vishal vishwakarma"
 words = name.split()

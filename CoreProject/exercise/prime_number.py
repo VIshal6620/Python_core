@@ -9,3 +9,4 @@ if count == 0:
     print("Prime Number:", number)
 else:
     print("Not Prime Number:", number)
+
