@@ -1,4 +1,4 @@
-numbers = [100, 10, 11, 5, 13, 17, 88]
+numbers = [100, 10, 11, 5, 13,88, 17, 88]
 
 highest = 0
 second_highest = 0
