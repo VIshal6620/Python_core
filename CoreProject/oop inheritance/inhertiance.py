@@ -7,11 +7,11 @@ class Child(Parent):
         pass
 
 
-# def bike(self):
-#     print("i have a bike")
+def bike(self):
+    print("i have a bike")
 
-# p = Parent()
-# p.car()
+p = Parent()
+p.car()
 
 c = Child()
 # c.bike()
