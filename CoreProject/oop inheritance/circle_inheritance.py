@@ -17,6 +17,8 @@ class Shape():
         return self.borderwidth
 
 
+
+
 class Circle(Shape):
     def __init__(self, radius, color, borderwidth):
         super().__init__(color, borderwidth)
@@ -34,6 +36,8 @@ print("Color of Radius =", c.getcolor())
 print("borderwidth of Radius =", c.getborderwidth())
 print("Area of Circle=", c.Area())
 
+
+
 class Shape:
     def __init__(self, color, borderwidth):
         self.color = color
@@ -44,6 +48,8 @@ class Shape:
 
     def getborderwidth(self):
         return self.borderwidth
+
+
 
 
 class Circle(Shape):
