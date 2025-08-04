@@ -7,7 +7,3 @@ for vowel in 'aeiou':
             count += 1
     if count != 0:
         print(vowel, "count =", count)
-
-
-
-
