@@ -1,49 +1,59 @@
 class Person:
+    count = 0  # Class variable (optional)
 
-# #    count = 0
-    #
-    #     def setName(self, name):
-    #         self.name = name
-    #
-    #     def getName(self):
-    #         return self.name
-    #
-    #     def setsalary(self, salary):
-    #         self.salary = salary
-    #
-    #     def getsalary(self):
-    #         return self.salary
-    #
-    #     def setcity(self, city):
-    #         self.city = city
-    #
-    #     def getcity(self):
-    #         return self.city
-    #
-    #
-    # p = Person()
-    # p.setName("vishal")
-    # print(p.getName())
-    # p.setsalary("25000")
-    # print(p.getsalary())
-    # p.setcity("dewas")
-    # print(p.getcity())
-    #
-    def __init__(self, name, salary, city):
+    # Set name
+    def setName(self, name):
         self.name = name
-        self.salary = salary
-        self.city = city
 
-    def getname(self):
+    # Get name
+    def getName(self):
         return self.name
 
-    def getsalary(self):
+    # Set salary
+    def setSalary(self, salary):
+        self.salary = salary
+
+    # Get salary
+    def getSalary(self):
         return self.salary
 
-    def getcity(self):
+    # Set city
+    def setCity(self, city):
+        self.city = city
+
+    # Get city
+    def getCity(self):
         return self.city
 
 
-p = Person("vishal", "32000", "indore")
-print(p.getname(), p.getsalary(), p.getcity())
+# Creating object
+p = Person()
+p.setName("Vishal")
+print("Name:", p.getName())
+
+p.setSalary("25000")
+print("Salary:", p.getSalary())
+
+p.setCity("Dewas")
+print("City:", p.getCity())
+
+
+
+#     def __init__(self, name, salary, city):
+#         self.name = name
+#         self.salary = salary
+#         self.city = city
+#
+#     def getname(self):
+#         return self.name
+#
+#     def getsalary(self):
+#         return self.salary
+#
+#     def getcity(self):
+#         return self.city
+#
+#
+# p = Person("vishal", "32000", "indore")
+# print(p.getname(), p.getsalary(), p.getcity())
 
