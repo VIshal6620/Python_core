@@ -1,62 +1,53 @@
 class BankAccount:
-    def __init__(self, account_holder):
-        self.account_holder = account_holder
-        self.balance = 0.0
+    def __init__(self, name):
+        self.name = name
+        self.balance = 0
 
-    def deposit(self, amount):
-        if amount > 0:
-            self.balance += amount
-            print(f"Deposited: ${amount:.2f}")
+    def deposit(self, amt):
+        if amt > 0:
+            self.balance += amt
+            print("Deposited:", amt)
         else:
-            print("Deposit amount must be positive.")
+            print("Amount must be positive.")
 
-    def withdraw(self, amount):
-        if amount > 0:
-            if amount <= self.balance:
-                self.balance -= amount
-                print(f"Withdrew: ${amount:.2f}")
+    def withdraw(self, amt):
+        if amt > 0:
+            if amt <= self.balance:
+                self.balance -= amt
+                print("Withdrawn:", amt)
             else:
-                print("Insufficient funds.")
-        else:
-            print("Withdrawal amount must be positive.")
+                print("Not enough balance.")
 
-    def get_balance(self):
-        return self.balance
-
-    def display_balance(self):
-        print(f"Current balance: ${self.get_balance():.2f}")
+    def show_balance(self):
+        print("Balance:", self.balance)
 
 
 def main():
-    account_holder = input("Enter account holder's name: ")
-    account = BankAccount(account_holder)
+    name = input("Enter your name: ")
+    acc = BankAccount(name)
 
     while True:
-        print("Options:")
-        print("1. Deposit")
-        print("2. Withdraw")
-        print("3. Check Balance")
-        print("4. Exit")
+        print("\n1. Deposit\n2. Withdraw\n3. Check Balance\n4. Exit")
+        ch = input("Choose option: ")
 
-        choice = input("Choose an option (1-4): ")
-
-        if choice == '1':
-            amount = float(input("Enter amount to deposit: "))
-            account.deposit(amount)
-        elif choice == '2':
-            amount = float(input("Enter amount to withdraw: "))
-            account.withdraw(amount)
-        elif choice == '3':
-            account.display_balance()
-        elif choice == '4':
-            print("Exiting the program.")
+        if ch == '1':
+            amt = float(input("Amount to deposit: "))
+            acc.deposit(amt)
+        elif ch == '2':
+            amt = float(input("Amount to withdraw: "))
+            acc.withdraw(amt)
+        elif ch == '3':
+            acc.show_balance()
+        elif ch == '4':
+            print("Bye!")
             break
         else:
-            print("Invalid choice. Please try again.")
+            print("Invalid option. Try again.")
 
 
 if __name__ == "__main__":
     main()
+
 
 #Automobile
 
