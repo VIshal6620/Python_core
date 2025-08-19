@@ -1,45 +1,31 @@
 class person:
 
 
-    #     def setcolor(self, color):
-    #         self.color = color
-    #
-    #     def getcolor(self):
-    #         return self.color
-    #
-    #     def setSpeed(self, Speed):
-    #         self.Speed = Speed
-    #
-    #     def getSpeed(self):
-    #         return self.Speed
-    #
-    #     def setMake(self, Make):
-    #         self.Make = Make
-    #
-    #     def getMake(self):
-    #         return self.Make
-    #
-    #
-    # p = person()
-    # p.setcolor("white")
-    # print(p.getcolor())
-    # p.setSpeed("80")
-    # print(p.getSpeed())
-    # p.setMake("Car")
-    # print(p.getMake())
+        def setcolor(self, color):
+            self.color = color
 
-    def __init__(self, fname, lname, city):
-        self.fname = fname
-        self.lname = lname
-        self.city = city
+        def getcolor(self):
+            return self.color
 
-    def getfname(self):
-        return self.fname
+        def setSpeed(self, Speed):
+            self.Speed = Speed
 
-    def getlname(self):
-        return self.lname
+        def getSpeed(self):
+            return self.Speed
 
-    def getcity(self):
-        return self.city
-p=person("vishal","vishwakarma","indore")
-print(p.getfname(),p.getlname(),p.getcity())
+        def setMake(self, Make):
+            self.Make = Make
+
+        def getMake(self):
+            return self.Make
+
+
+p = person()
+p.setcolor("white")
+print(p.getcolor())
+p.setSpeed("80")
+print(p.getSpeed())
+p.setMake("Car")
+print(p.getMake())
+
+
