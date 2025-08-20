@@ -31,20 +31,4 @@ p.setBalance("10000000")
 print(p.getBalance())
 
 
-#     def __init__(self, Actype, balance, number):
-#         self.Actype = Actype
-#         self.balance = balance
-#         self.number = number
-#
-#     def getActype(self):
-#         return self.Actype
-#
-#     def getbalance(self):
-#         return self.balance
-#
-#     def getnumber(self):
-#         return self.number
-#
-#
-# p = Account("saving", 1000000, 89001100006485)
-# print(p.getActype(),p.getnumber(),p.getbalance())
+

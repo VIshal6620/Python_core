@@ -1,27 +1,27 @@
 class Person:
     count = 0  # Class variable (optional)
 
-    # Set name
+
     def setName(self, name):
         self.name = name
 
-    # Get name
+
     def getName(self):
         return self.name
 
-    # Set salary
+
     def setSalary(self, salary):
         self.salary = salary
 
-    # Get salary
+
     def getSalary(self):
         return self.salary
 
-    # Set city
+
     def setCity(self, city):
         self.city = city
 
-    # Get city
+
     def getCity(self):
         return self.city
 
