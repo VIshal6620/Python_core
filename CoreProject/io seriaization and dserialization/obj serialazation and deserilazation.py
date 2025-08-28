@@ -8,13 +8,13 @@ class Employee:
         self.id = id
 
 
-# e = Employee('abiket', 'anant',4)
-# f = open('C:/Users/visha/OneDrive/Desktop/IO/serialization.txt','wb')
-# pickle.dump(e, f)
-# print('done')
-# f.close()
-
-f = open('C:/Users/visha/OneDrive/Desktop/IO/serialization.txt','rb')
-e=pickle.load(f)
-print(e.eno,e.ename,e.id)
+e = Employee('abiket', 'anant',4)
+f = open('C:/Users/visha/OneDrive/Desktop/IO/serialization.txt','wb')
+pickle.dump(e, f)
+print('done')
 f.close()
+
+# f = open('C:/Users/visha/OneDrive/Desktop/IO/serialization.txt','rb')
+# e=pickle.load(f)
+# print(e.eno,e.ename,e.id)
+# f.close()
