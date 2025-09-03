@@ -1,6 +1,3 @@
-
-
-
 import pickle
 
 
@@ -17,3 +14,10 @@ class Employee:
 with open('../files/employee.txt', 'wb') as file:
     emp = Employee(1, 'Mayank', 1000)
     pickle.dump(emp, file)
+
+
+
+with open('../files/employee.txt', 'rb') as file:
+    obj = pickle.load(file)
+    print("Printing Employee information after unpickling")
+    obj.display()
