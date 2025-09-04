@@ -1,21 +1,18 @@
 import threading
+
+
 def hello():
-    for i in range(15):
-        print("Hello",i)
+    for i in range(1, 11):
+        print('hello:', i)
+
 
 def hi():
-    for i in range(15):
-        print("hi",i)
-
-# create threads
-hello_thread = threading.Thread(target=hello)
-hi_thread = threading.Thread(target=hi)
+    for i in range(1, 11):
+        print('hi:', i)
 
 
-#start threads
-hello_thread.start()
-hi_thread.start()
+t1 = threading.Thread(target=hello)
+t2 = threading.Thread(target=hi)
 
-
-#Main thread continues without waiting for the other threads to complete
-print("\nThreads started\n")
+t1.start()
+t2.start()
