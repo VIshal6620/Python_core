@@ -6,6 +6,7 @@ import threading
 class Account:
 
     def __init__(self):
+        self.lock = threading.Lock()
         self.balance = 0
 
     def set_balance(self, balance):
@@ -17,8 +18,10 @@ class Account:
         return self.balance
 
     def diposite(self, amount):
+        self.lock.acquire()
         bal = self.get_balance()
         self.set_balance(bal + amount)
+        self.lock.release()
 
 
 class Racing(Thread):
