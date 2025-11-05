@@ -5,7 +5,6 @@
 # print(Hello())
 
 
-# or
 
 class Hello:
     def __init__(self):

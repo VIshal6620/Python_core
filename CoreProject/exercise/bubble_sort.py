@@ -7,6 +7,3 @@ for i in range(0, len(list)):
             list[i] = list[j]
             list[j] = temp
     print(list[i], end=" ")
-
-
-
