@@ -35,3 +35,5 @@ list10=["vishal",123,2.2]
 print(list10)
 list12=['vishal']
 print(list9)
+
+

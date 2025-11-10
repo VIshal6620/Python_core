@@ -8,9 +8,3 @@ for ch in "abcdefghijklmnopqrstuvwxyz":
     if count != 0:
         print(ch, "count =", count)
 
-
-
-
-        
-
-
