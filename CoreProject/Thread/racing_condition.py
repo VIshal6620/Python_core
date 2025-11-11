@@ -48,5 +48,3 @@ def main_task():
 # Run main task
 main_task()
 
-
-

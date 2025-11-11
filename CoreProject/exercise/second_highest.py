@@ -12,5 +12,3 @@ for num in numbers:
 
 print("Highest number is:", highest)
 print("Second highest number is:", second_highest)
-
-

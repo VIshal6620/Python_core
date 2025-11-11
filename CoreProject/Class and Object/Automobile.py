@@ -28,6 +28,3 @@ print(p.getSpeed())
 p.setMake("Car")
 print(p.getMake())
 
-
-
-

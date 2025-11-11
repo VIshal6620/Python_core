@@ -31,5 +31,3 @@ p.setBalance("10000000")
 print(p.getBalance())
 
 
-
-
